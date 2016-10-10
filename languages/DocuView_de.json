@@ -1,12 +1,16 @@
 {
     "main": {
-        "title": "DocuView",
-        "description": "Beschreibung"
+        "title": "Dokumentation für Entwickler",
+        "description": "Bereitet die komplette Dokumentationsumgebung für Entwickler der Übungsplattform vor. Dies kann je nachdem einige Zeit in Anspruch nehmen."
     },
     "listFiles": {
-        "listDesc": "Beschreibung2",
+        "listDesc": "Module zusammensuchen und Hilfedateien registrieren",
         "summary": "Komponente",
         "summary2": "Status",
         "list": "Los"
+    },
+    "createCache": {
+        "createDesc": "Cache für Ansichten erstellen",
+        "create": "Erzeugen"
     }
 }

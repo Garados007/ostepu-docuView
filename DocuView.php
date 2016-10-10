@@ -49,7 +49,12 @@ class DocuView
         // prüft, ob das Ereignis listFiles aktiviert ist (man kann sie oben abschalten)
         if (self::$onEvents['listFiles']['enabledInstall']){
             // erstellt eine Schaltfläche zum auslösen von listFiles
-            $text .= Design::erstelleZeile($console, Installation::Get('listFiles','listDesc',self::$langTemplate), 'e',  Design::erstelleSubmitButton(self::$onEvents['listFiles']['event'][0],Installation::Get('listFiles','list',self::$langTemplate)), 'h');
+            $text .= Design::erstelleZeile($console, Installation::Get('listFiles','listDesc',self::$langTemplate), 'e',  
+                Design::erstelleSubmitButton(self::$onEvents['listFiles']['event'][0],Installation::Get('listFiles','list',self::$langTemplate)), 'h');
+            // erstellt eine Schaltfläche zum Auslösen von createCache
+            $text .= Design::erstelleZeile($console, Installation::Get('createCache','createDesc',self::$langTemplate), 'e',  
+                Design::erstelleSubmitButton(self::$onEvents['listFiles']['event'][0],Installation::Get('createCache','create',self::$langTemplate)), 'h');
+
         }
 
         // prüft, ob das Ereignis listFiles ausgelöst wurde
