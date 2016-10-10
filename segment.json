@@ -1,0 +1,13 @@
+[{
+    "name": "DocuView",
+    "author": "Max Brauer",
+    "version": "1.0",
+    "instructions": {
+        "type": "php",
+        "params": {
+            "run": "include",
+            "file": "DocuView.php",
+            "className": "DocuView"
+        }
+    }
+}]

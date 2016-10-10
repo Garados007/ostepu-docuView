@@ -1,0 +1,11 @@
+{
+  "name":"TDocuView",
+  "version":"1.0",
+  "type":"clone",
+  "base":"CAbstract",
+  "baseURI":"/tdocuview",
+  "option":"confPath=install/segments/ext_DocuView/tdocuview_cconfig.json",
+  "links":[
+    {"name":"getDescFiles"}
+  ]
+}

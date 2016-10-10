@@ -1,0 +1,12 @@
+{
+    "main": {
+        "title": "DocuView",
+        "description": "Beschreibung"
+    },
+    "listFiles": {
+        "listDesc": "Beschreibung2",
+        "summary": "Komponente",
+        "summary2": "Status",
+        "list": "Los"
+    }
+}
